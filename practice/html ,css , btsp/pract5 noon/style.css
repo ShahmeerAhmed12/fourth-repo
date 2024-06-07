@@ -1,0 +1,29 @@
+/* navbar css  */
+
+.navbar{
+    background-color: yellow;
+    
+}
+
+/* mobile */
+
+@media only screen and (max-width:800px){
+    .a{
+        background-color: rgb(16, 16, 194);
+    }
+}
+
+
+
+/* tablet */
+
+@media only screen and (min-width:801px){
+    .a{
+        background-color: brown;
+    }
+}
+
+
+
+/* laptop */
+

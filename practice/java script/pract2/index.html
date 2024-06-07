@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- part 1 -->
+<h1  id="a">hello</h1>
+
+
+<button   onclick="a1()">click</button>
+<!-- part 1 -->
+
+
+
+
+<hr>
+
+
+
+
+<!-- part 2 -->
+
+<img src="images.jpg"  id="bb" alt="">
+
+<button onclick="b1()">light on</button>
+<button onclick="b2()">light off</button>
+<!-- part 2 -->
+
+
+
+
+
+<hr>
+
+
+
+
+<!-- part 3 -->
+
+<h1 id="cc"> Hello</h1>
+
+
+<button  onclick="c1()">blue</button>
+<button onclick="c2()">center</button>
+<button onclick="c3()">bg color </button>
+<!-- part 3 -->
+
+
+
+<hr>
+
+
+<!-- part 4 -->
+
+<h1>Result</h1>
+
+<h1 id="dd"></h1>
+<!-- part 4 -->
+
+
+<hr>
+
+
+
+
+<!-- part 8 -->
+
+
+<input type="text" id="input">
+<button onclick="bt()">check</button>
+
+<!-- part 8 -->
+
+
+
+
+
+
+
+<!-- jv start -->
+
+    <script>
+
+
+                //part1
+            function a1(){
+                document.getElementById('a').innerHTML='world'
+            }
+                //part1
+
+
+                //part2
+            function b1(){
+                document.getElementById('bb').src='p1.png'
+            }
+
+            function b2(){
+                document.getElementById('bb').src='images.jpg'
+            }
+               //part2
+
+
+
+
+                //part3
+            function c1(){
+                document.getElementById('cc') .style='color:blue'
+            }
+
+            function c2(){
+                document.getElementById('cc').style='text-align: center '
+            }
+
+            function c3(){
+                document.getElementById('cc').style='background-color:red'
+            }   
+              //part3
+
+
+
+            //part4
+            var a=20
+            var b=65
+
+            var result = a+b
+
+            document.getElementById('dd').innerHTML=result
+            //part4
+
+
+
+            
+            //part5
+
+            var s=10
+            var h=20
+
+            console.log(s+h)
+
+            //part5
+
+
+
+            //part6
+
+            var x =50
+            var y =30
+
+            console.log(x+y)
+
+            function add(){
+                var z =a+b
+                console.log(z)
+            }
+
+            //part6
+
+
+
+
+
+
+            
+            //part 7
+
+
+            var a = 100
+
+            if (a>100){
+                document.write("greater than")
+            } else if ( a==100){
+                document.write("equal")
+            } else{
+                document.write("less than")
+            }
+
+
+            //part 7
+
+
+
+            //part 8
+            function bt(){
+
+                var c =document.getElementById("input").value
+                if (c > 100){
+                    document.write("greater than")
+                } else if(c==100){
+                    document.write("equal")
+                }else{
+                    document.write("less than")
+                }
+            }
+
+            //part 8
+
+
+
+
+            //part 9
+            //for loop
+
+            for (let i=0 ; i=100 ;i++){
+                console.log("hello")
+            }
+
+            //part 9
+
+    </script>
+
+    <!-- jv end -->
+
+    
+</body>
+</html>
